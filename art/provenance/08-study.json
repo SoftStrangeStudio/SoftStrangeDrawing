@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-b6dd71b0-d304-4673-9052-65f872b27526.png",
+  "subject": "Shark study 8",
+  "prompt": "Original naturalist shark study; source batch stopped and white fill removed at user request.",
+  "validation": {
+    "width": 1774,
+    "height": 887,
+    "stroke_pixels": 66079,
+    "transparent_pixels": 1507459
+  },
+  "asset": "Assets/SoftStrange/Resources/References/08-study.png"
+}

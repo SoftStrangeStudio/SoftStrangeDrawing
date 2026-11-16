@@ -1,0 +1,13 @@
+{
+  "id": 40,
+  "subject": "leopard shark graceful contour with outlined spots",
+  "prompt": "ONE individual freehand drawing reference of leopard shark graceful contour with outlined spots. Only sparse thin BLACK contour strokes on a truly transparent alpha background. Interior of the subject is also entirely transparent. Absolutely NO white filled body, NO colored fill, NO grayscale wash, NO shadows, NO shading, NO hatching, NO paper, NO background, NO text. This is stroke-only line art, like the paths of an unfilled vector drawing. Complete subject inside frame, generous margins, elegant naturalist outlines. It will be converted to pure white recolorable stroke pixels for a mixed reality drawing app.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-3d64c8a5-5b5f-4811-b577-8c9a182b60f9.png",
+  "validation": {
+    "width": 1774,
+    "height": 887,
+    "stroke_pixels": 120317,
+    "transparent_pixels": 1453221
+  },
+  "asset": "Assets/SoftStrange/Resources/References/40-study.png"
+}

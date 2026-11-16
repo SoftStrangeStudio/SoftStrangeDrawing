@@ -1,0 +1,13 @@
+{
+  "id": 56,
+  "subject": "nautilus shell",
+  "prompt": "ONE individual freehand drawing reference of nautilus shell. Only sparse thin BLACK contour strokes on a truly transparent alpha background. Interior of the subject is also entirely transparent. Absolutely NO white filled body, NO colored fill, NO grayscale wash, NO shadows, NO shading, NO hatching, NO paper, NO background, NO text. This is stroke-only line art, like the paths of an unfilled vector drawing. Complete subject inside frame, generous margins, elegant naturalist outlines. It will be converted to pure white recolorable stroke pixels for a mixed reality drawing app.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-fdb678d3-691f-40e0-8470-1fb10fee687b.png",
+  "validation": {
+    "width": 1402,
+    "height": 1122,
+    "stroke_pixels": 114720,
+    "transparent_pixels": 1458324
+  },
+  "asset": "Assets/SoftStrange/Resources/References/56-study.png"
+}

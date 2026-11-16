@@ -1,0 +1,10 @@
+{
+  "plugin": "soft-strange-drawing-kit",
+  "version": "0.1.1",
+  "treatment": "Dated recovery snapshot; canonical maintained source remains outside the repository. Do not edit extracted snapshots as a competing source.",
+  "canonical_source": "/Users/angelberger/plugins/soft-strange-drawing-kit",
+  "archive": "soft-strange-drawing-kit-0.1.1.zip",
+  "file_count": 64,
+  "sha256": "4bd2297c4e7e9f9f5f2de2774b7a38015c132620396712fd1fc82b598611fc36",
+  "private_credentials_included": false
+}

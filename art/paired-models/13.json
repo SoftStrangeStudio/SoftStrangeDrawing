@@ -1,0 +1,12 @@
+{
+  "id": "13",
+  "name": "Little shark",
+  "authoring": "original procedural stylized mesh",
+  "script": "tools/blender/build_reference_pairs.py",
+  "views": [
+    "side",
+    "top"
+  ],
+  "sourceModel": "ReferenceModels/13-model",
+  "scientificAccuracy": "stylized drawing study; not an anatomical reference"
+}

@@ -1,0 +1,13 @@
+{
+  "id": 59,
+  "subject": "fern frond",
+  "prompt": "ONE individual freehand drawing reference of fern frond. Only sparse thin BLACK contour strokes on a truly transparent alpha background. Interior of the subject is also entirely transparent. Absolutely NO white filled body, NO colored fill, NO grayscale wash, NO shadows, NO shading, NO hatching, NO paper, NO background, NO text. This is stroke-only line art, like the paths of an unfilled vector drawing. Complete subject inside frame, generous margins, elegant naturalist outlines. It will be converted to pure white recolorable stroke pixels for a mixed reality drawing app.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-42063690-9ec8-43e6-b20f-e9432e04a5b2.png",
+  "validation": {
+    "width": 1024,
+    "height": 1536,
+    "stroke_pixels": 173856,
+    "transparent_pixels": 1399008
+  },
+  "asset": "Assets/SoftStrange/Resources/References/59-study.png"
+}

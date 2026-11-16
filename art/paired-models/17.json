@@ -1,0 +1,12 @@
+{
+  "id": "17",
+  "name": "Silky shark",
+  "authoring": "original procedural stylized mesh",
+  "script": "tools/blender/build_reference_pairs.py",
+  "views": [
+    "side",
+    "top"
+  ],
+  "sourceModel": "ReferenceModels/17-model",
+  "scientificAccuracy": "stylized drawing study; not an anatomical reference"
+}

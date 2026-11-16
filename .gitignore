@@ -1,0 +1,13 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+UserSettings/
+[Bb]uilds/
+.DS_Store
+*.csproj
+*.sln*
+.flatpak-builder/
+.utmp/
+__pycache__/
+*.py[cod]

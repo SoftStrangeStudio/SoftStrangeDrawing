@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /app/lib/softstrange
+exec /app/lib/softstrange/SoftStrangeDrawing.x86_64 "$@"

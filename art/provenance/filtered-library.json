@@ -1,0 +1,1505 @@
+{
+  "pipeline": "AI originals -> luminance/alpha extraction -> haze and dust cleanup -> fill boundary -> stroke strengthening -> padded RGBA",
+  "images": [
+    {
+      "id": "01-study",
+      "title": "Shark Study 1",
+      "source": "art/source/01-study.png",
+      "source_sha256": "7659e184842dfa8cfa2a91996d5b9f5ba9d1a9d1a017607b196a17364d1ebee2",
+      "output": "Assets/SoftStrange/Resources/References/01-study.png",
+      "output_sha256": "0fca6017685ad66fa48fb4d3c14f03951b2a3cf4bb53310f7294c29a21c306fe",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 1024,
+        "stroke_pixels": 209577,
+        "transparent_pixels": 1363287
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "02-study",
+      "title": "Shark Study 2",
+      "source": "art/source/02-study.png",
+      "source_sha256": "fe5093f64bdd7ff12e50951787c5d73ed43cfbe6b4f5c11f4f6240775efe6ea0",
+      "output": "Assets/SoftStrange/Resources/References/02-study.png",
+      "output_sha256": "9970e8938381bd2515e8a75a0913babcc8057f3ce4ec4fbba8c6fb62082563a1",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 598,
+        "stroke_pixels": 147230,
+        "transparent_pixels": 771298
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "03-study",
+      "title": "Shark Study 3",
+      "source": "art/source/03-study.png",
+      "source_sha256": "3ab014717dc33b9aa38084c20303c9245bfbe47e511d261f88bdace3e8a22a7c",
+      "output": "Assets/SoftStrange/Resources/References/03-study.png",
+      "output_sha256": "ee77bb671cf2ce6472fb2e9c7b48cfee7ea0bb64bfbaf66fc3ccbcd885b97fc8",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1500,
+        "height": 730,
+        "stroke_pixels": 65170,
+        "transparent_pixels": 1029830
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "04-study",
+      "title": "Shark Study 4",
+      "source": "art/source/04-study.png",
+      "source_sha256": "cd042fe47a7fec49d4fca0ea7910d67b75f445dff44ba15e822096eacffae07a",
+      "output": "Assets/SoftStrange/Resources/References/04-study.png",
+      "output_sha256": "c91a019568af6446008c347c74c18b28e271e2fbd3899c98462a52cfb5c359b1",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 976,
+        "stroke_pixels": 151710,
+        "transparent_pixels": 1347426
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "05-study",
+      "title": "Shark Study 5",
+      "source": "art/source/05-study.png",
+      "source_sha256": "bac8d302408ac266a8fa14aa01431c5bef62ffa08413773854a0c32d7f403969",
+      "output": "Assets/SoftStrange/Resources/References/05-study.png",
+      "output_sha256": "bbfae3a85a6d63c3aa4fa44e4584fee62f3cb141d2989ee752ef7ee061597a17",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1480,
+        "height": 1048,
+        "stroke_pixels": 108407,
+        "transparent_pixels": 1442633
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "06-study",
+      "title": "Shark Study 6",
+      "source": "art/source/06-study.png",
+      "source_sha256": "3944adbbd81cda87e87a213225e4bd87993203b4d83478bdb0af2d5d5400f4d0",
+      "output": "Assets/SoftStrange/Resources/References/06-study.png",
+      "output_sha256": "5cca16ebcbcbe5294a263c2230926191a099bed53d24827f853ca26da7b07d19",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 565,
+        "stroke_pixels": 59276,
+        "transparent_pixels": 808564
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "07-study",
+      "title": "Shark Study 7",
+      "source": "art/source/07-study.png",
+      "source_sha256": "d4af179ba8c0723d25e734a377cf059b4cc61a0b54af52f07ba736227f698d07",
+      "output": "Assets/SoftStrange/Resources/References/07-study.png",
+      "output_sha256": "8d6c076aa990b5f8de127ef1f60eac148b4d27739cb6b1259c2c827e0136e203",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1484,
+        "height": 893,
+        "stroke_pixels": 72013,
+        "transparent_pixels": 1253199
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "08-study",
+      "title": "Shark Study 8",
+      "source": "art/source/08-study.png",
+      "source_sha256": "a0173afa1097aadd02544b2ad6645a3b24af6a8fb425af9eac50e476cd91bba6",
+      "output": "Assets/SoftStrange/Resources/References/08-study.png",
+      "output_sha256": "e8ea6d1d7e5993437d9776144e65f676a97ede39fd070d88ad021036e3067107",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 628,
+        "stroke_pixels": 62708,
+        "transparent_pixels": 901900
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "09-study",
+      "title": "Shark Study 9",
+      "source": "art/source/09-study.png",
+      "source_sha256": "097f15877d9304f336f3917f51cc04b8a124f1cd243db3791dbbb35087cd58af",
+      "output": "Assets/SoftStrange/Resources/References/09-study.png",
+      "output_sha256": "4c4777adb780ca5275853f08cb771d55b1549ecbc2821d0398ae44235bb0be8e",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1493,
+        "height": 985,
+        "stroke_pixels": 90973,
+        "transparent_pixels": 1379632
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "10-study",
+      "title": "Shark Study 10",
+      "source": "art/source/10-study.png",
+      "source_sha256": "8fa28ba0fce13fd806ab3c3c34521d31a6d3f4fe2276d691eeeb96254c7a6437",
+      "output": "Assets/SoftStrange/Resources/References/10-study.png",
+      "output_sha256": "c2e398dd0110f67bc9c5354e5093f4895f1f66e05b2e2ef9cba0f530d0bf261e",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1437,
+        "height": 986,
+        "stroke_pixels": 60597,
+        "transparent_pixels": 1356285
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "11-study",
+      "title": "Shark Study 11",
+      "source": "art/source/11-study.png",
+      "source_sha256": "af72e35ffbe748b7803be318d021440bc781baf2a97b3372c3fea9b6785c04b7",
+      "output": "Assets/SoftStrange/Resources/References/11-study.png",
+      "output_sha256": "2b3dca46d6a12951cee5403e814675f92c8b0bb8d1d941778e8bcf40c59635d2",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 805,
+        "stroke_pixels": 62183,
+        "transparent_pixels": 1174297
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "12-study",
+      "title": "Shark Study 12",
+      "source": "art/source/12-study.png",
+      "source_sha256": "1e630f8797a2e7b6c4013af3c27b961e7667571e15da9115e2440e833cdc6cc4",
+      "output": "Assets/SoftStrange/Resources/References/12-study.png",
+      "output_sha256": "b5761baf3f9019299bcf7add8b13b21d17f16b3462ac0a3cd54ec9f217ee5dcc",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1463,
+        "height": 947,
+        "stroke_pixels": 72804,
+        "transparent_pixels": 1312657
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "13-study",
+      "title": "Shark Study 13",
+      "source": "art/source/13-study.png",
+      "source_sha256": "85a04f8c108085d09af8229215d9ea1d2cf63d5a9e1b015362ec2011925e1dc8",
+      "output": "Assets/SoftStrange/Resources/References/13-study.png",
+      "output_sha256": "9808666d8c0944063eee04aa9e4eff316480f3f4be7548a16ad611fa63eba41d",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1502,
+        "height": 1047,
+        "stroke_pixels": 86477,
+        "transparent_pixels": 1486117
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "14-study",
+      "title": "Shark Study 14",
+      "source": "art/source/14-study.png",
+      "source_sha256": "943c7eee4be8259db2ec357a40862036098254041f0fba312c5ef3638b62acb3",
+      "output": "Assets/SoftStrange/Resources/References/14-study.png",
+      "output_sha256": "89deb4341707f2c755e7451757acaef6afc3bb8fccd71fda011335e298cc34b1",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 642,
+        "height": 1320,
+        "stroke_pixels": 50579,
+        "transparent_pixels": 796861
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "15-study",
+      "title": "Shark Study 15",
+      "source": "art/source/15-study.png",
+      "source_sha256": "a51fcc1abd62681a55fa5e1a89be48c03df6211a0f3b72631baa799f36def48b",
+      "output": "Assets/SoftStrange/Resources/References/15-study.png",
+      "output_sha256": "45755a3b107f78ede74be17ee4911c6571fc26436a002635ae8bf3650a252d58",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 462,
+        "stroke_pixels": 89906,
+        "transparent_pixels": 619726
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "16-study",
+      "title": "Shark Study 16",
+      "source": "art/source/16-study.png",
+      "source_sha256": "db91c017ee9afc983ce4c52172d320a9937ae3c05bbc401437920608be649ecb",
+      "output": "Assets/SoftStrange/Resources/References/16-study.png",
+      "output_sha256": "5c8eb6ba7c45133f1455a7f6e66d10c076a8c0c7f5306d466508aff3de465a55",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 583,
+        "stroke_pixels": 64100,
+        "transparent_pixels": 831388
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "17-study",
+      "title": "Shark Study 17",
+      "source": "art/source/17-study.png",
+      "source_sha256": "4d3b7a35026eb7addadf48a788b5f3631d68fc384480dc817f59f5321ffbe834",
+      "output": "Assets/SoftStrange/Resources/References/17-study.png",
+      "output_sha256": "cca59fe0e96e111cf7c38bffb86f6a8944d2eaba4bd917c7291673404e597668",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1232,
+        "height": 1339,
+        "stroke_pixels": 132140,
+        "transparent_pixels": 1517508
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "18-study",
+      "title": "Shark Study 18",
+      "source": "art/source/18-study.png",
+      "source_sha256": "01bfd3e97787e435d6b07bcf1613bd556f8937643fac138cce24a1b93da6e8b9",
+      "output": "Assets/SoftStrange/Resources/References/18-study.png",
+      "output_sha256": "b0416bbbe03e400556e05d9270d5f42942426684766e8badfbb73d4f28f1643c",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 428,
+        "stroke_pixels": 45412,
+        "transparent_pixels": 611996
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "19-study",
+      "title": "Horn Shark Resting Profile",
+      "source": "art/source/19-study.png",
+      "source_sha256": "a2cb7c0e942e0d9915ff2748aad48f0b45f9d8fb7c12feed03e0690afb932e6d",
+      "output": "Assets/SoftStrange/Resources/References/19-study.png",
+      "output_sha256": "29329abbb3ee7a3b070fc51e64f28305dd9509cea143819cf33bad628a93b371",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 521,
+        "stroke_pixels": 56021,
+        "transparent_pixels": 744235
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "20-study",
+      "title": "Sevengill Shark Side View",
+      "source": "art/source/20-study.png",
+      "source_sha256": "2c00ab972297882e3f2161f2b02d29cdb3838b8be6db776b2dfa3765e65ff1b1",
+      "output": "Assets/SoftStrange/Resources/References/20-study.png",
+      "output_sha256": "425ad81b053c989ddf8ffeab0d88502e1477401b52a12388ef762ff585c4c9e7",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 473,
+        "stroke_pixels": 31881,
+        "transparent_pixels": 694647
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "21-study",
+      "title": "Sixgill Shark Side View",
+      "source": "art/source/21-study.png",
+      "source_sha256": "59ebee75c3bb6909466a3038578ace5ded2cffe86ae024ebfd7c07c7cbaffa2a",
+      "output": "Assets/SoftStrange/Resources/References/21-study.png",
+      "output_sha256": "b1ff271478b04f44b27f6c37099cd0bb6afd8c2f6abe48eeeb48ead638a9ef9a",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 462,
+        "stroke_pixels": 28444,
+        "transparent_pixels": 681188
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "22-study",
+      "title": "Copper Shark In A Smooth Turn",
+      "source": "art/source/22-study.png",
+      "source_sha256": "e2cfe209122ba62e2de583a4f4ccb4607d794c8b62849c7705b731433c20d4cb",
+      "output": "Assets/SoftStrange/Resources/References/22-study.png",
+      "output_sha256": "69924536601f89ab9378970218b04857094cf8ef8480813f178fc156c402d773",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1396,
+        "height": 1003,
+        "stroke_pixels": 61295,
+        "transparent_pixels": 1338893
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "23-study",
+      "title": "Sandbar Shark Full Body Tall Dorsal Fin",
+      "source": "art/source/23-study.png",
+      "source_sha256": "96faefd0c803b013c81565220a03fe062a8a7f881df91b154d32feec8368cbfe",
+      "output": "Assets/SoftStrange/Resources/References/23-study.png",
+      "output_sha256": "eccd1d54a33e2872189eec6c7fbede8c2c0b0a95fdbd8222eaa54a004b550d6e",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 631,
+        "stroke_pixels": 51265,
+        "transparent_pixels": 917951
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "24-study",
+      "title": "Dusky Shark Gentle Side View",
+      "source": "art/source/24-study.png",
+      "source_sha256": "3ea19d2025ae5a29de6503769d8c6eccafa770759123ef8335dfadc40fda907c",
+      "output": "Assets/SoftStrange/Resources/References/24-study.png",
+      "output_sha256": "7c790240e0e85423c4be0b3e46195d0a59043ec392e7be07e58fb5856780030b",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 602,
+        "stroke_pixels": 44706,
+        "transparent_pixels": 879966
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "25-study",
+      "title": "Spinner Shark Curved Pose",
+      "source": "art/source/25-study.png",
+      "source_sha256": "de85df5a0384a21ea034f7300424a0409a864f23aaa9e0578d9c4266f7f97a06",
+      "output": "Assets/SoftStrange/Resources/References/25-study.png",
+      "output_sha256": "d4958424495139568cd04a64513d0cd76cc8971c01a9d5d9c4b459d8fdf0246c",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1361,
+        "height": 993,
+        "stroke_pixels": 54421,
+        "transparent_pixels": 1297052
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "26-study",
+      "title": "Oceanic Whitetip Shark Viewed From Above",
+      "source": "art/source/26-study.png",
+      "source_sha256": "834f5231a2b98e035c8b10b5f852bb8991fdb98a64a3123b50c7a3a60b1a3b9c",
+      "output": "Assets/SoftStrange/Resources/References/26-study.png",
+      "output_sha256": "e4e21230eb8343b31845ba0a8803f959d0b4cbab01376357f37961f096fd7922",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1484,
+        "height": 958,
+        "stroke_pixels": 38856,
+        "transparent_pixels": 1382816
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "27-study",
+      "title": "Reef Shark Flowing Profile",
+      "source": "art/source/27-study.png",
+      "source_sha256": "98c9f34f3e1bb104fcfe1f6c4df9bc73365fa68830ae90e69f4c14771e9f46d6",
+      "output": "Assets/SoftStrange/Resources/References/27-study.png",
+      "output_sha256": "1400532ddb734c7589d7d1f3ba9bda261fc759be8b98e822d7a5323002d7ac1f",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 632,
+        "stroke_pixels": 44515,
+        "transparent_pixels": 926237
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "28-study",
+      "title": "Great White Simple Beginner Profile",
+      "source": "art/source/28-study.png",
+      "source_sha256": "11ae623195474a14551f3beef761f1ead8760ccd814ffdaaacc046bf419163f6",
+      "output": "Assets/SoftStrange/Resources/References/28-study.png",
+      "output_sha256": "ecb63165192df7334de4f1ee5ade8fb0d9d301e9b795fd00189de12e6727a7a0",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 675,
+        "stroke_pixels": 49140,
+        "transparent_pixels": 987660
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "29-study",
+      "title": "Hammerhead Simple Overhead Contour",
+      "source": "art/source/29-study.png",
+      "source_sha256": "c4d95c51deaaf5e612a2c3f8b5dc85221c8bb10a29ddcaaee0526eb2b6ab8069",
+      "output": "Assets/SoftStrange/Resources/References/29-study.png",
+      "output_sha256": "defd362760519a583847f388b0dcde08b09987ea97503ca09fee9d89fad680a8",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1484,
+        "height": 638,
+        "stroke_pixels": 33696,
+        "transparent_pixels": 913096
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "30-study",
+      "title": "Whale Shark Simple Full-Body Contour",
+      "source": "art/source/30-study.png",
+      "source_sha256": "9fb456c053be4c6854bce33f6214fce4737cf1d56fd6b1c351f880373a133868",
+      "output": "Assets/SoftStrange/Resources/References/30-study.png",
+      "output_sha256": "b22951ff90577f48ca0b4b48252e04c7fc4a4a7238113d16106a9adf0a5929ce",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 658,
+        "stroke_pixels": 89990,
+        "transparent_pixels": 920698
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "31-study",
+      "title": "Tiger Shark Minimalist Profile",
+      "source": "art/source/31-study.png",
+      "source_sha256": "232b1421381b4424f61927a35b2d2e7b6bd7e91d434db1b82ed15b9131f03b1a",
+      "output": "Assets/SoftStrange/Resources/References/31-study.png",
+      "output_sha256": "b2506d49e0d639e6eb1717380ef62351cf4e4ade8f96090a3e215b72e83ea257",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 599,
+        "stroke_pixels": 64514,
+        "transparent_pixels": 855550
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "32-study",
+      "title": "Thresher Shark Profile",
+      "source": "art/source/32-study.png",
+      "source_sha256": "709c0e45eb509e171daa32cdfebe5bd3768858116e90f1f729fa43de75fa2766",
+      "output": "Assets/SoftStrange/Resources/References/32-study.png",
+      "output_sha256": "dfcaf4ec89d8ecc5f425f9b9aba80dfcd1b0e1e4610794e4faf0851de35c061e",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 642,
+        "stroke_pixels": 35173,
+        "transparent_pixels": 950939
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "33-study",
+      "title": "Blue Shark Flowing S-Shaped Pose",
+      "source": "art/source/33-study.png",
+      "source_sha256": "4308fbc54b47fb3e183dd5947c75a28c39a5a5ccce9a1d9a4eb594dfe13775e1",
+      "output": "Assets/SoftStrange/Resources/References/33-study.png",
+      "output_sha256": "dd77a43de7268e95b399fe6ea3ba9b4f2ace831f546564d1f6e0ffe754d87050",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1498,
+        "height": 983,
+        "stroke_pixels": 62686,
+        "transparent_pixels": 1409848
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "34-study",
+      "title": "Friendly Baby Shark Original Rounded Design",
+      "source": "art/source/34-study.png",
+      "source_sha256": "e9985a5320147017b46a6ff127e60b305325ab7a835386cdbcaca8f46f12746f",
+      "output": "Assets/SoftStrange/Resources/References/34-study.png",
+      "output_sha256": "86f74e809e7147159232291be9ffcc397a4fdace02b74cb739b0b4daca938c91",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1343,
+        "height": 917,
+        "stroke_pixels": 86001,
+        "transparent_pixels": 1145530
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "35-study",
+      "title": "Shark Turning Toward Viewer Three-Quarter Study",
+      "source": "art/source/35-study.png",
+      "source_sha256": "dc9d3aec82da5818d9ee158dd78a2e28ad4767a53d7d928872784189d9442ee5",
+      "output": "Assets/SoftStrange/Resources/References/35-study.png",
+      "output_sha256": "b306ac1ce4368493bbf68ad29cbb31aeeb9d1d1e43350efc555f84514450754c",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1424,
+        "height": 942,
+        "stroke_pixels": 82878,
+        "transparent_pixels": 1258530
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "36-study",
+      "title": "Shark Swimming Away Complete Tail Perspective",
+      "source": "art/source/36-study.png",
+      "source_sha256": "0a9078c09ad3efdafcde4c196524e51d1d8a957741b4d3a61c8a88d8942d6670",
+      "output": "Assets/SoftStrange/Resources/References/36-study.png",
+      "output_sha256": "c60a897f58b37b44f1d4a241361840db1d93ef8f2e246b027fc4f1f3b6f66358",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1248,
+        "height": 972,
+        "stroke_pixels": 51248,
+        "transparent_pixels": 1161808
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "37-study",
+      "title": "Two Small Sharks Circling",
+      "source": "art/source/37-study.png",
+      "source_sha256": "1500408da90f20fd177415a4ed9019945a1727e8d0e09193c04f03bfcced2fba",
+      "output": "Assets/SoftStrange/Resources/References/37-study.png",
+      "output_sha256": "36bcf3241820b3abd9163d0c7095a065194ba67b85d4ee2373b841c1a1c8564f",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1071,
+        "height": 1011,
+        "stroke_pixels": 53747,
+        "transparent_pixels": 1029034
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "38-study",
+      "title": "Shark Vertical Diving Gesture",
+      "source": "art/source/38-study.png",
+      "source_sha256": "6545f40044c6d6b7b76b8d343235079047cb13ba523cd405f25aac713d040b7a",
+      "output": "Assets/SoftStrange/Resources/References/38-study.png",
+      "output_sha256": "0c6da501cb56960c6261d70289715ff5c71efc45e6086aadba3e8b63db59262f",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 569,
+        "height": 1506,
+        "stroke_pixels": 42994,
+        "transparent_pixels": 813920
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "39-study",
+      "title": "Hammerhead Three-Quarter Turning Pose",
+      "source": "art/source/39-study.png",
+      "source_sha256": "00a929d5ff09f83e5d080035d41380531b0e941f401d7152268a58b157a0322b",
+      "output": "Assets/SoftStrange/Resources/References/39-study.png",
+      "output_sha256": "01dfb5e570a4b8c713e430c528f04858fc96192e1f91cbf4d6d31eec2221ee37",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 975,
+        "stroke_pixels": 71919,
+        "transparent_pixels": 1425681
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "40-study",
+      "title": "Leopard Shark Graceful Contour With Outlined Spots",
+      "source": "art/source/40-study.png",
+      "source_sha256": "129ddded8ef19a3cac09b119800f120eed4450448b98d0731903930fd5e6eaba",
+      "output": "Assets/SoftStrange/Resources/References/40-study.png",
+      "output_sha256": "98836b376ac2031615bb890e09cfac7a8e1cfe4b8a0d71b7c7c22586b10c583f",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 653,
+        "stroke_pixels": 85856,
+        "transparent_pixels": 917152
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "41-study",
+      "title": "Bamboo Shark Curled Tail",
+      "source": "art/source/41-study.png",
+      "source_sha256": "cb39055f04095759bdc49b45ef2a9d16833b9ca3b7da488ea64e73c2e7c334af",
+      "output": "Assets/SoftStrange/Resources/References/41-study.png",
+      "output_sha256": "faba5bba111b46178af4f1c259d69efc6399b3ef8705558d428e5083ac1b4805",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1516,
+        "height": 978,
+        "stroke_pixels": 68409,
+        "transparent_pixels": 1414239
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "42-study",
+      "title": "Epaulette Shark Overhead Study",
+      "source": "art/source/42-study.png",
+      "source_sha256": "2befe5d1a06e33ba4108bcbb2e7e44094ecf8f1e7adddcb62971cf54e72df461",
+      "output": "Assets/SoftStrange/Resources/References/42-study.png",
+      "output_sha256": "39bb76d56ea5881fe99326fe138e808222dc470072529847ee71dd8c8ee5c2f2",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 664,
+        "stroke_pixels": 75861,
+        "transparent_pixels": 944043
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "43-study",
+      "title": "Wobbegong Simple Outline-Only Study",
+      "source": "art/source/43-study.png",
+      "source_sha256": "ef70ea635ba5a01e388d6f0a136dea585605cfe147f4b97a75603daf6f4f01ba",
+      "output": "Assets/SoftStrange/Resources/References/43-study.png",
+      "output_sha256": "2e05cefc8b96fc58e7f121bead6a9bde5888b7e38f22c926a135c66bb69c6aec",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 990,
+        "stroke_pixels": 82762,
+        "transparent_pixels": 1437878
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "44-study",
+      "title": "Angel Shark Viewed From Above",
+      "source": "art/source/44-study.png",
+      "source_sha256": "0fbcbe950c18bd470af36f408ccff9c6fb9fb6bbffa598258b81c4387b6ee2ad",
+      "output": "Assets/SoftStrange/Resources/References/44-study.png",
+      "output_sha256": "9cd4b4b5a500a3452524147c9016a2d4a13192ea82f219b48be1b171bc245c60",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1532,
+        "height": 1032,
+        "stroke_pixels": 98698,
+        "transparent_pixels": 1482326
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "45-study",
+      "title": "Sawshark Full-Length Elegant Outline",
+      "source": "art/source/45-study.png",
+      "source_sha256": "1c3203f3d6c0becbd36d3e246745fe9ff12144b89e5accd8259710cc4c25abe6",
+      "output": "Assets/SoftStrange/Resources/References/45-study.png",
+      "output_sha256": "57411299664c08b15a99a6b1f6e3b177b992ba517849d8debd67d89da84e1809",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 422,
+        "stroke_pixels": 33130,
+        "transparent_pixels": 615062
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "46-study",
+      "title": "Mako Shark Dynamic Upward-Swimming Contour",
+      "source": "art/source/46-study.png",
+      "source_sha256": "d8ec600d99157019f2069dbd184e2e633b7a23886b89984d3adb1b54c65196b7",
+      "output": "Assets/SoftStrange/Resources/References/46-study.png",
+      "output_sha256": "4d77b8c024b6645839d7566f67773459caf1e9588a3964488fc61d7d91c5577a",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1180,
+        "height": 1238,
+        "stroke_pixels": 70418,
+        "transparent_pixels": 1390422
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "47-study",
+      "title": "Port Jackson Shark Outlined Body Pattern",
+      "source": "art/source/47-study.png",
+      "source_sha256": "224e0ed1bd3512e26e602e28ef0f02727c4f224b9a36e0edba3d2616d12a14ac",
+      "output": "Assets/SoftStrange/Resources/References/47-study.png",
+      "output_sha256": "f83262b0ccc9ead16630243f2a4fb5882d6e4b9f0b1b93fdc08edcf18127c52c",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1536,
+        "height": 629,
+        "stroke_pixels": 72691,
+        "transparent_pixels": 893453
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "48-study",
+      "title": "Nurse Shark Front Three-Quarter Pose",
+      "source": "art/source/48-study.png",
+      "source_sha256": "1c38a534c477eb09e1f01a79c766e863dc7cf5f4cb31a89214a9e2dfd799f3d0",
+      "output": "Assets/SoftStrange/Resources/References/48-study.png",
+      "output_sha256": "013ed14a0f0817899e35e64e96d4e73a683dd6b954bdb343fa4e2eeff14bdd49",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1522,
+        "height": 901,
+        "stroke_pixels": 65371,
+        "transparent_pixels": 1305951
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "49-study",
+      "title": "Blacktip Shark Breaking The Water With No Water Fill",
+      "source": "art/source/49-study.png",
+      "source_sha256": "9107c67ce1cdbd2db99352c12fcc91150f5cb2bf5945ad90bb0151e2385e9812",
+      "output": "Assets/SoftStrange/Resources/References/49-study.png",
+      "output_sha256": "0c5d12d893e99348ef34988d6acf5e1d8e967c7979eb8123d1cbad5322946c83",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1351,
+        "height": 936,
+        "stroke_pixels": 98449,
+        "transparent_pixels": 1166087
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "50-study",
+      "title": "Two Sharks Crossing With Separate Clean Silhouettes",
+      "source": "art/source/50-study.png",
+      "source_sha256": "5ac58dca657a24eb516faabcdea6ddaab31e6310bef9a811cfeae2751f61c185",
+      "output": "Assets/SoftStrange/Resources/References/50-study.png",
+      "output_sha256": "3c310790af1558cab8d3a194a5db020d9c52fa1dc19d43957dc23811e82600ea",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1356,
+        "height": 782,
+        "stroke_pixels": 64556,
+        "transparent_pixels": 995836
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "51-study",
+      "title": "Sea Turtle",
+      "source": "art/source/51-study.png",
+      "source_sha256": "5c3a6abcaa44bac7641fe22cdf68ffa8fda278822206d35e84f15d9cce1540f3",
+      "output": "Assets/SoftStrange/Resources/References/51-study.png",
+      "output_sha256": "7428fe0a019c36526e8eaf026b66f327ecf0f0054ea5b276c1bf1aabc0358488",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1507,
+        "height": 871,
+        "stroke_pixels": 132520,
+        "transparent_pixels": 1180077
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "52-study",
+      "title": "Manta Ray",
+      "source": "art/source/52-study.png",
+      "source_sha256": "3d00d68a7417189d95067f7cfb487e3aa7197d18468e32a94b4576917d89715d",
+      "output": "Assets/SoftStrange/Resources/References/52-study.png",
+      "output_sha256": "3f9b022f49402bf703c8aec9af2b60e710ee037373aaf84b5966d18297e62c66",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1483,
+        "height": 862,
+        "stroke_pixels": 55460,
+        "transparent_pixels": 1222886
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "53-study",
+      "title": "Octopus",
+      "source": "art/source/53-study.png",
+      "source_sha256": "d8f3dd0e748cf63bf6cad811ef24f547719dcfc7338a73187708d9927f69c1b1",
+      "output": "Assets/SoftStrange/Resources/References/53-study.png",
+      "output_sha256": "18327197b75f97e187121e8f66542df1e34e4a0a8e6758a1070385d7ef15c0a2",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1431,
+        "height": 995,
+        "stroke_pixels": 143149,
+        "transparent_pixels": 1280696
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "54-study",
+      "title": "Jellyfish",
+      "source": "art/source/54-study.png",
+      "source_sha256": "0147cb1265b0066d7a9f6cfc8964eb9cbccf96ccda9293d8278aff51814b0e7f",
+      "output": "Assets/SoftStrange/Resources/References/54-study.png",
+      "output_sha256": "01a723082fa6af090593bf45bd48ff709c3f460cde863a90c0cb77e1f5240cd1",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 909,
+        "height": 1473,
+        "stroke_pixels": 158172,
+        "transparent_pixels": 1180785
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "55-study",
+      "title": "Seahorse",
+      "source": "art/source/55-study.png",
+      "source_sha256": "348eb37c8fadbda0e13fa9ed5016931d25c68566796bea0a3976700c83b2a9e0",
+      "output": "Assets/SoftStrange/Resources/References/55-study.png",
+      "output_sha256": "957ab20fb9967f85c160a87814d6051cd16a2d7fd3cf9b435ce246e0b2ea1336",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 706,
+        "height": 1490,
+        "stroke_pixels": 124227,
+        "transparent_pixels": 927713
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "56-study",
+      "title": "Nautilus Shell",
+      "source": "art/source/56-study.png",
+      "source_sha256": "4cb6ec7ef540c03fbf47549317fa6f7ac09fbd2da66aea1b151fb87b08205e19",
+      "output": "Assets/SoftStrange/Resources/References/56-study.png",
+      "output_sha256": "d8607b114730cbdf8c047acc29254ae505fec0d96d21594eabab76fbacc0a141",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1204,
+        "height": 929,
+        "stroke_pixels": 106803,
+        "transparent_pixels": 1011713
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "57-study",
+      "title": "Coral Branch",
+      "source": "art/source/57-study.png",
+      "source_sha256": "4792aef1a80597331356b1b2d35b84149e4482e65a2bf422eb5752714f59d75f",
+      "output": "Assets/SoftStrange/Resources/References/57-study.png",
+      "output_sha256": "40d39451cd23a3450aca213fa68eaa640c25fd677dfcaf6ab8fa11653382554a",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1179,
+        "height": 1291,
+        "stroke_pixels": 80163,
+        "transparent_pixels": 1441926
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "58-study",
+      "title": "Starfish And Shell Arrangement",
+      "source": "art/source/58-study.png",
+      "source_sha256": "67627f8216019a38925a3b067d51546e294be69f7085ea2bad97c7f0aadcdb11",
+      "output": "Assets/SoftStrange/Resources/References/58-study.png",
+      "output_sha256": "82c24bc1f23588d4907cd91cb812f9fd0c753bfba929b13531425238535d7885",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 1352,
+        "height": 1129,
+        "stroke_pixels": 199489,
+        "transparent_pixels": 1326919
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "59-study",
+      "title": "Fern Frond",
+      "source": "art/source/59-study.png",
+      "source_sha256": "48d78d5e4d1eccfc900e7b3d55c48fcbaf59c051925f842ec2c9879e42f12d4c",
+      "output": "Assets/SoftStrange/Resources/References/59-study.png",
+      "output_sha256": "3ae0f1dac9d0d71c772cc6ebe3e01d08ea1c19325d99dc6be131d053a7f106ad",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 859,
+        "height": 1516,
+        "stroke_pixels": 118771,
+        "transparent_pixels": 1183473
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    },
+    {
+      "id": "60-study",
+      "title": "Wildflower Stem",
+      "source": "art/source/60-study.png",
+      "source_sha256": "59307f64276e81773d3506a819d5ac23cb9c8319b18115c0cfc4c651c91ac106",
+      "output": "Assets/SoftStrange/Resources/References/60-study.png",
+      "output_sha256": "52575f6cf6b4b24d3b8b9aad95c2d06f0d4da61478e6240e1da502a02c71e079",
+      "filter": {
+        "cutoff": 150,
+        "feather": 65,
+        "clean": true
+      },
+      "validation": {
+        "width": 804,
+        "height": 1482,
+        "stroke_pixels": 82738,
+        "transparent_pixels": 1108790
+      },
+      "checks": {
+        "white_rgb": true,
+        "clear_border": true,
+        "mostly_transparent": true,
+        "visible_ink": true
+      }
+    }
+  ]
+}

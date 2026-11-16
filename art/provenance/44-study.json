@@ -1,0 +1,13 @@
+{
+  "id": 44,
+  "subject": "Angel shark viewed from above",
+  "prompt": "Scientific drawing of a Angel shark viewed from above. Only thin black contour lines, like an unfilled vector icon. Transparent background and transparent spaces inside the contour. No solid areas, no shading, no text. One complete animal with generous margins.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-ba34f3e2-1990-4bd0-8faa-00a6af918944.png",
+  "validation": {
+    "width": 1536,
+    "height": 1024,
+    "stroke_pixels": 127242,
+    "transparent_pixels": 1445622
+  },
+  "asset": "Assets/SoftStrange/Resources/References/44-study.png"
+}

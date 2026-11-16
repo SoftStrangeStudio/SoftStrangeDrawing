@@ -1,0 +1,1922 @@
+[
+  {
+    "file": "01-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304211
+  },
+  {
+    "file": "01-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411386
+  },
+  {
+    "file": "02-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304555
+  },
+  {
+    "file": "02-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412059
+  },
+  {
+    "file": "03-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304435
+  },
+  {
+    "file": "03-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411920
+  },
+  {
+    "file": "04-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304428
+  },
+  {
+    "file": "04-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      941,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411914
+  },
+  {
+    "file": "05-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304520
+  },
+  {
+    "file": "05-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      941,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411985
+  },
+  {
+    "file": "06-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304199
+  },
+  {
+    "file": "06-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411156
+  },
+  {
+    "file": "07-side.png",
+    "size": [
+      1024,
+      301
+    ],
+    "bbox": [
+      84,
+      23,
+      941,
+      278
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 295891
+  },
+  {
+    "file": "07-top.png",
+    "size": [
+      1024,
+      404
+    ],
+    "bbox": [
+      83,
+      32,
+      941,
+      372
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 399042
+  },
+  {
+    "file": "08-side.png",
+    "size": [
+      1024,
+      520
+    ],
+    "bbox": [
+      84,
+      42,
+      940,
+      479
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 519012
+  },
+  {
+    "file": "08-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411837
+  },
+  {
+    "file": "09-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "09-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412217
+  },
+  {
+    "file": "10-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      941,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304429
+  },
+  {
+    "file": "10-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411984
+  },
+  {
+    "file": "11-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304119
+  },
+  {
+    "file": "11-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 410837
+  },
+  {
+    "file": "12-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304443
+  },
+  {
+    "file": "12-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411955
+  },
+  {
+    "file": "13-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "13-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412217
+  },
+  {
+    "file": "14-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304195
+  },
+  {
+    "file": "14-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411384
+  },
+  {
+    "file": "15-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304550
+  },
+  {
+    "file": "15-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412050
+  },
+  {
+    "file": "16-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "16-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412217
+  },
+  {
+    "file": "17-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304440
+  },
+  {
+    "file": "17-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411983
+  },
+  {
+    "file": "18-side.png",
+    "size": [
+      1024,
+      258
+    ],
+    "bbox": [
+      84,
+      20,
+      940,
+      238
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 253061
+  },
+  {
+    "file": "18-top.png",
+    "size": [
+      1024,
+      347
+    ],
+    "bbox": [
+      84,
+      28,
+      940,
+      320
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 342839
+  },
+  {
+    "file": "19-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      941,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304536
+  },
+  {
+    "file": "19-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411992
+  },
+  {
+    "file": "20-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "20-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412031
+  },
+  {
+    "file": "21-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304438
+  },
+  {
+    "file": "21-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411417
+  },
+  {
+    "file": "22-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304548
+  },
+  {
+    "file": "22-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412058
+  },
+  {
+    "file": "23-side.png",
+    "size": [
+      1024,
+      358
+    ],
+    "bbox": [
+      84,
+      27,
+      940,
+      330
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 354407
+  },
+  {
+    "file": "23-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411518
+  },
+  {
+    "file": "24-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304531
+  },
+  {
+    "file": "24-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411999
+  },
+  {
+    "file": "25-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304427
+  },
+  {
+    "file": "25-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411941
+  },
+  {
+    "file": "26-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304536
+  },
+  {
+    "file": "26-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412006
+  },
+  {
+    "file": "27-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304535
+  },
+  {
+    "file": "27-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411988
+  },
+  {
+    "file": "28-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304208
+  },
+  {
+    "file": "28-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      941,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411377
+  },
+  {
+    "file": "29-side.png",
+    "size": [
+      1024,
+      301
+    ],
+    "bbox": [
+      84,
+      23,
+      941,
+      278
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 295899
+  },
+  {
+    "file": "29-top.png",
+    "size": [
+      1024,
+      404
+    ],
+    "bbox": [
+      83,
+      32,
+      941,
+      372
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 399083
+  },
+  {
+    "file": "30-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304203
+  },
+  {
+    "file": "30-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411156
+  },
+  {
+    "file": "31-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      941,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304187
+  },
+  {
+    "file": "31-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411391
+  },
+  {
+    "file": "32-side.png",
+    "size": [
+      1024,
+      520
+    ],
+    "bbox": [
+      84,
+      42,
+      940,
+      479
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 518796
+  },
+  {
+    "file": "32-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411309
+  },
+  {
+    "file": "33-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304434
+  },
+  {
+    "file": "33-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411980
+  },
+  {
+    "file": "34-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "34-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412217
+  },
+  {
+    "file": "35-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304437
+  },
+  {
+    "file": "35-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411977
+  },
+  {
+    "file": "36-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304422
+  },
+  {
+    "file": "36-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411943
+  },
+  {
+    "file": "37-side.png",
+    "size": [
+      1024,
+      277
+    ],
+    "bbox": [
+      84,
+      21,
+      940,
+      256
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 267797
+  },
+  {
+    "file": "37-top.png",
+    "size": [
+      1024,
+      764
+    ],
+    "bbox": [
+      84,
+      62,
+      940,
+      702
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 759296
+  },
+  {
+    "file": "38-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304533
+  },
+  {
+    "file": "38-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411987
+  },
+  {
+    "file": "39-side.png",
+    "size": [
+      1024,
+      301
+    ],
+    "bbox": [
+      84,
+      23,
+      941,
+      278
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 295879
+  },
+  {
+    "file": "39-top.png",
+    "size": [
+      1024,
+      404
+    ],
+    "bbox": [
+      83,
+      32,
+      941,
+      372
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 399005
+  },
+  {
+    "file": "40-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304112
+  },
+  {
+    "file": "40-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 410849
+  },
+  {
+    "file": "41-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304421
+  },
+  {
+    "file": "41-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411937
+  },
+  {
+    "file": "42-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304533
+  },
+  {
+    "file": "42-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411988
+  },
+  {
+    "file": "43-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 305504
+  },
+  {
+    "file": "43-top.png",
+    "size": [
+      1024,
+      586
+    ],
+    "bbox": [
+      83,
+      47,
+      940,
+      539
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 588034
+  },
+  {
+    "file": "44-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 305899
+  },
+  {
+    "file": "44-top.png",
+    "size": [
+      1024,
+      586
+    ],
+    "bbox": [
+      83,
+      47,
+      940,
+      539
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 588186
+  },
+  {
+    "file": "45-side.png",
+    "size": [
+      1024,
+      258
+    ],
+    "bbox": [
+      84,
+      20,
+      940,
+      238
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 252778
+  },
+  {
+    "file": "45-top.png",
+    "size": [
+      1024,
+      347
+    ],
+    "bbox": [
+      84,
+      28,
+      940,
+      320
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 339675
+  },
+  {
+    "file": "46-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304546
+  },
+  {
+    "file": "46-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412042
+  },
+  {
+    "file": "47-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304426
+  },
+  {
+    "file": "47-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411932
+  },
+  {
+    "file": "48-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304540
+  },
+  {
+    "file": "48-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 412217
+  },
+  {
+    "file": "49-side.png",
+    "size": [
+      1024,
+      309
+    ],
+    "bbox": [
+      84,
+      24,
+      940,
+      285
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 304197
+  },
+  {
+    "file": "49-top.png",
+    "size": [
+      1024,
+      415
+    ],
+    "bbox": [
+      84,
+      33,
+      940,
+      382
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 411379
+  },
+  {
+    "file": "50-side.png",
+    "size": [
+      1024,
+      277
+    ],
+    "bbox": [
+      84,
+      21,
+      940,
+      256
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 267730
+  },
+  {
+    "file": "50-top.png",
+    "size": [
+      1024,
+      764
+    ],
+    "bbox": [
+      84,
+      62,
+      940,
+      702
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 759247
+  },
+  {
+    "file": "51-side.png",
+    "size": [
+      1024,
+      256
+    ],
+    "bbox": [
+      83,
+      31,
+      941,
+      225
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 252940
+  },
+  {
+    "file": "51-top.png",
+    "size": [
+      1018,
+      1024
+    ],
+    "bbox": [
+      83,
+      84,
+      935,
+      940
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 1027886
+  },
+  {
+    "file": "52-side.png",
+    "size": [
+      1024,
+      256
+    ],
+    "bbox": [
+      83,
+      76,
+      941,
+      180
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 252781
+  },
+  {
+    "file": "52-top.png",
+    "size": [
+      902,
+      1024
+    ],
+    "bbox": [
+      73,
+      84,
+      829,
+      941
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 912420
+  },
+  {
+    "file": "53-side.png",
+    "size": [
+      1024,
+      521
+    ],
+    "bbox": [
+      83,
+      41,
+      941,
+      480
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 508405
+  },
+  {
+    "file": "53-top.png",
+    "size": [
+      1024,
+      1024
+    ],
+    "bbox": [
+      83,
+      83,
+      941,
+      941
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 1005558
+  },
+  {
+    "file": "54-side.png",
+    "size": [
+      832,
+      1024
+    ],
+    "bbox": [
+      67,
+      83,
+      765,
+      940
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 799855
+  },
+  {
+    "file": "54-top.png",
+    "size": [
+      1024,
+      1023
+    ],
+    "bbox": [
+      83,
+      83,
+      941,
+      940
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 1036555
+  },
+  {
+    "file": "55-side.png",
+    "size": [
+      687,
+      1024
+    ],
+    "bbox": [
+      54,
+      83,
+      632,
+      941
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 689002
+  },
+  {
+    "file": "55-top.png",
+    "size": [
+      1024,
+      326
+    ],
+    "bbox": [
+      83,
+      25,
+      941,
+      301
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 321690
+  },
+  {
+    "file": "56-side.png",
+    "size": [
+      1024,
+      899
+    ],
+    "bbox": [
+      83,
+      73,
+      941,
+      827
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 887269
+  },
+  {
+    "file": "56-top.png",
+    "size": [
+      1024,
+      256
+    ],
+    "bbox": [
+      83,
+      86,
+      940,
+      170
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 252814
+  },
+  {
+    "file": "57-side.png",
+    "size": [
+      693,
+      1024
+    ],
+    "bbox": [
+      56,
+      83,
+      637,
+      941
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 682026
+  },
+  {
+    "file": "57-top.png",
+    "size": [
+      1024,
+      1012
+    ],
+    "bbox": [
+      83,
+      82,
+      941,
+      930
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 1010448
+  },
+  {
+    "file": "58-side.png",
+    "size": [
+      1024,
+      256
+    ],
+    "bbox": [
+      83,
+      82,
+      941,
+      174
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 250937
+  },
+  {
+    "file": "58-top.png",
+    "size": [
+      1024,
+      854
+    ],
+    "bbox": [
+      84,
+      69,
+      941,
+      785
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 860574
+  },
+  {
+    "file": "59-side.png",
+    "size": [
+      1024,
+      256
+    ],
+    "bbox": [
+      83,
+      83,
+      941,
+      173
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 248886
+  },
+  {
+    "file": "59-top.png",
+    "size": [
+      1024,
+      517
+    ],
+    "bbox": [
+      83,
+      41,
+      941,
+      476
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 502909
+  },
+  {
+    "file": "60-side.png",
+    "size": [
+      886,
+      1024
+    ],
+    "bbox": [
+      71,
+      83,
+      814,
+      941
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 883643
+  },
+  {
+    "file": "60-top.png",
+    "size": [
+      1021,
+      1024
+    ],
+    "bbox": [
+      83,
+      132,
+      938,
+      893
+    ],
+    "whiteRGB": true,
+    "unclipped": true,
+    "transparentPixels": 1030762
+  }
+]

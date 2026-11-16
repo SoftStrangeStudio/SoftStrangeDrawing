@@ -1,0 +1,13 @@
+{
+  "id": 13,
+  "subject": "Shark curve study",
+  "prompt": "A simple scientific line drawing of one swimming shark in a curved pose. Fine black contour lines only. The inside of every outline is empty and transparent, as is the background. No filled areas, no shading, no hatching, no gradients, no text. Unfilled vector-style drawing for tracing.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-9f338a36-2f72-4dd0-83d2-ad1fe213c529.png",
+  "validation": {
+    "width": 1536,
+    "height": 1024,
+    "stroke_pixels": 98739,
+    "transparent_pixels": 1474125
+  },
+  "asset": "Assets/SoftStrange/Resources/References/13-study.png"
+}

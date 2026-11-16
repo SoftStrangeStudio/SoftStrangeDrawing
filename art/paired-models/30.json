@@ -1,0 +1,12 @@
+{
+  "id": "30",
+  "name": "Gentle whale shark",
+  "authoring": "original procedural stylized mesh",
+  "script": "tools/blender/build_reference_pairs.py",
+  "views": [
+    "side",
+    "top"
+  ],
+  "sourceModel": "ReferenceModels/30-model",
+  "scientificAccuracy": "stylized drawing study; not an anatomical reference"
+}

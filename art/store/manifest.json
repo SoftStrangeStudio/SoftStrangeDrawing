@@ -1,0 +1,63 @@
+{
+  "status": "Brand artwork drafts; review with final listing. Not gameplay footage.",
+  "source": "https://developers.meta.com/vr/resources/asset-guidelines/",
+  "font": "Liberation Sans, SIL Open Font License",
+  "assets": [
+    {
+      "asset": "hero-cover",
+      "width": 3000,
+      "height": 900,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/hero-cover.pdf"
+    },
+    {
+      "asset": "cover-landscape",
+      "width": 2560,
+      "height": 1440,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/cover-landscape.pdf"
+    },
+    {
+      "asset": "cover-square",
+      "width": 1440,
+      "height": 1440,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/cover-square.pdf"
+    },
+    {
+      "asset": "cover-portrait",
+      "width": 1008,
+      "height": 1440,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/cover-portrait.pdf"
+    },
+    {
+      "asset": "mini-landscape",
+      "width": 1080,
+      "height": 360,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/mini-landscape.pdf"
+    },
+    {
+      "asset": "logo-transparent",
+      "width": 1800,
+      "height": 650,
+      "channels": 4,
+      "transparent": true,
+      "source": "art/store/logo-transparent.pdf"
+    },
+    {
+      "asset": "icon-vector",
+      "width": 512,
+      "height": 512,
+      "channels": 3,
+      "transparent": false,
+      "source": "art/store/icon-vector.pdf"
+    }
+  ]
+}

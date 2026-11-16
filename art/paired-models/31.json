@@ -1,0 +1,12 @@
+{
+  "id": "31",
+  "name": "Tiger swimmer",
+  "authoring": "original procedural stylized mesh",
+  "script": "tools/blender/build_reference_pairs.py",
+  "views": [
+    "side",
+    "top"
+  ],
+  "sourceModel": "ReferenceModels/31-model",
+  "scientificAccuracy": "stylized drawing study; not an anatomical reference"
+}

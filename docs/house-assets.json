@@ -1,0 +1,1612 @@
+[
+  {
+    "name": "Floor plank 00-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 00-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 00-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 00-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 00-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 00-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 01-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 02-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 03-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 04-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 05-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 06-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 07-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 08-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 09-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 10-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 11-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 12-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 13-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 14-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 15-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 16-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 17-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 18-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 19-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 20-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 21-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 22-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-0",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-1",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-2",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-3",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-4",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Floor plank 23-5",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Back wall",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Left wall",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Front wall left",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Front wall right",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Door header",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Right wall sill",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Right wall lintel",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window pier",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window pier.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window pier.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window pane",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window frame horizontal",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window frame horizontal.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window pane.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window frame horizontal.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window frame horizontal.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion.004",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Window mullion.005",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Baseboard long.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Baseboard long",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Baseboard side.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Baseboard side",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Oak entrance door",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Door brass knob",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Drawing desk top",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Desk tapered leg",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Desk tapered leg.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Desk tapered leg.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Desk tapered leg.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Desk apron",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Drawing sheet",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Pencil",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Eraser",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Ceramic mug",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Mug handle",
+    "type": "MESH",
+    "vertices": 384
+  },
+  {
+    "name": "Coffee surface",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Desk lamp base",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Lamp upright",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Lamp shade",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Chair seat",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair leg.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair leg.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair leg.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair leg",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair curved back",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair back support.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Chair back support",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Living room rug",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa base",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa back",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa arm",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa arm.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa seat cushion",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Sofa seat cushion.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Blue throw cushion",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Cream throw cushion",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Coffee table top",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Coffee table leg.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Coffee table leg.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Coffee table leg.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Coffee table leg",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Stacked art book",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Stacked art book.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Stacked art book.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Kitchen cabinet",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet face.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet pull.001",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Kitchen cabinet.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet face.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet pull.002",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Kitchen cabinet.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet face.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet pull.003",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Kitchen cabinet.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet face",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Cabinet pull",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Stone countertop",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Oven front",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Oven glass",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Stove burner.001",
+    "type": "MESH",
+    "vertices": 384
+  },
+  {
+    "name": "Stove burner.002",
+    "type": "MESH",
+    "vertices": 384
+  },
+  {
+    "name": "Stove burner.003",
+    "type": "MESH",
+    "vertices": 384
+  },
+  {
+    "name": "Stove burner",
+    "type": "MESH",
+    "vertices": 384
+  },
+  {
+    "name": "Sink bowl",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Faucet stem",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Faucet spout",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Refrigerator",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Fridge door",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Fridge handle",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Open kitchen shelf",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Shelf ceramic bowl",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.001",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.002",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.003",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.004",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Open kitchen shelf.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Shelf ceramic bowl.005",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.006",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.007",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.008",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Shelf ceramic bowl.009",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Bookcase left",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase right",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase shelf.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase shelf.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase shelf.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase shelf.004",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Bookcase shelf",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.004",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.005",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.006",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.007",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.008",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.009",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.010",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.011",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.012",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.013",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.014",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.015",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.016",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.017",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.018",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.019",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.020",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.021",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.022",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book.023",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Art library book",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Plant pot",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Plant leaf.001",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.002",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.003",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.004",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.005",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.006",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.007",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.008",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.009",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.010",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.011",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.012",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant pot.001",
+    "type": "MESH",
+    "vertices": 64
+  },
+  {
+    "name": "Plant leaf.013",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.014",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.015",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.016",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.017",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.018",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.019",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.020",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.021",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.022",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf.023",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Plant leaf",
+    "type": "MESH",
+    "vertices": 266
+  },
+  {
+    "name": "Wall art frame",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Wall art paper",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.001",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.002",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.003",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.004",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.005",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe.006",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "Abstract art stripe",
+    "type": "MESH",
+    "vertices": 8
+  },
+  {
+    "name": "UserEye",
+    "type": "EMPTY",
+    "vertices": 0
+  },
+  {
+    "name": "DrawingDeskAnchor",
+    "type": "EMPTY",
+    "vertices": 0
+  },
+  {
+    "name": "ReferenceAnchor",
+    "type": "EMPTY",
+    "vertices": 0
+  },
+  {
+    "name": "HouseOrigin",
+    "type": "EMPTY",
+    "vertices": 0
+  },
+  {
+    "name": "Soft daylight",
+    "type": "LIGHT",
+    "vertices": 0
+  },
+  {
+    "name": "Area",
+    "type": "LIGHT",
+    "vertices": 0
+  },
+  {
+    "name": "House presentation camera",
+    "type": "CAMERA",
+    "vertices": 0
+  }
+]

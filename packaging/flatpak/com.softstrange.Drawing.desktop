@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Soft Strange Drawing
+Comment=Offline drawing references and studio simulation
+Exec=soft-strange-drawing
+Icon=com.softstrange.Drawing
+Terminal=false
+Type=Application
+Categories=Graphics;Education;

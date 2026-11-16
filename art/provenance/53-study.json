@@ -1,0 +1,13 @@
+{
+  "id": 53,
+  "subject": "octopus",
+  "prompt": "ONE individual freehand drawing reference of octopus. Only sparse thin BLACK contour strokes on a truly transparent alpha background. Interior of the subject is also entirely transparent. Absolutely NO white filled body, NO colored fill, NO grayscale wash, NO shadows, NO shading, NO hatching, NO paper, NO background, NO text. This is stroke-only line art, like the paths of an unfilled vector drawing. Complete subject inside frame, generous margins, elegant naturalist outlines. It will be converted to pure white recolorable stroke pixels for a mixed reality drawing app.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-184b9e66-91b7-4703-b511-1cd3bce3339a.png",
+  "validation": {
+    "width": 1536,
+    "height": 1024,
+    "stroke_pixels": 213944,
+    "transparent_pixels": 1358920
+  },
+  "asset": "Assets/SoftStrange/Resources/References/53-study.png"
+}

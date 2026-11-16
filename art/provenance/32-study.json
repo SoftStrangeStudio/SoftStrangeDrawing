@@ -1,0 +1,13 @@
+{
+  "id": 32,
+  "subject": "Thresher shark profile",
+  "prompt": "Scientific drawing of a Thresher shark profile. Only thin black contour lines, like an unfilled vector icon. Transparent background and transparent spaces inside the contour. No solid areas, no shading, no text. One complete animal with generous margins.",
+  "source": "/Users/angelberger/.codex/generated_images/01a12d65-70f2-7ed2-ae35-719dd0c38a29/exec-935e37b6-89cb-4b7d-adba-161984724207.png",
+  "validation": {
+    "width": 1774,
+    "height": 887,
+    "stroke_pixels": 58110,
+    "transparent_pixels": 1515428
+  },
+  "asset": "Assets/SoftStrange/Resources/References/32-study.png"
+}

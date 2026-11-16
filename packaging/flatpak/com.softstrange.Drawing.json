@@ -1,0 +1,54 @@
+{
+  "app-id": "com.softstrange.Drawing",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "26.08",
+  "sdk": "org.freedesktop.Sdk",
+  "command": "soft-strange-drawing",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=pulseaudio",
+    "--device=dri",
+    "--share=network"
+  ],
+  "modules": [
+    {
+      "name": "drawing-studio",
+      "buildsystem": "simple",
+      "build-commands": [
+        "mkdir -p /app/lib/softstrange /app/bin /app/share/applications",
+        "cp -a linux/. /app/lib/softstrange/",
+        "chmod +x /app/lib/softstrange/SoftStrangeDrawing.x86_64",
+        "install -Dm755 soft-strange-drawing /app/bin/soft-strange-drawing",
+        "install -Dm644 com.softstrange.Drawing.desktop /app/share/applications/com.softstrange.Drawing.desktop",
+        "install -Dm644 com.softstrange.Drawing.metainfo.xml /app/share/metainfo/com.softstrange.Drawing.metainfo.xml",
+        "install -Dm644 com.softstrange.Drawing.png /app/share/icons/hicolor/512x512/apps/com.softstrange.Drawing.png"
+      ],
+      "sources": [
+        {
+          "type": "dir",
+          "path": "../../builds/Linux",
+          "dest": "linux"
+        },
+        {
+          "type": "file",
+          "path": "soft-strange-drawing"
+        },
+        {
+          "type": "file",
+          "path": "com.softstrange.Drawing.desktop"
+        },
+        {
+          "type": "file",
+          "path": "com.softstrange.Drawing.metainfo.xml"
+        },
+        {
+          "type": "file",
+          "path": "../../art/store/icon-vector.png",
+          "dest-filename": "com.softstrange.Drawing.png"
+        }
+      ]
+    }
+  ],
+  "appstream-compose": false
+}

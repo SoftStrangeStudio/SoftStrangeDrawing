@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.softstrange.Drawing</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <name>Soft Strange Drawing</name>
+  <summary>A cozy offline studio for drawing reference outlines</summary>
+  <developer id="com.softstrange"><name>Soft Strange</name></developer>
+  <description><p>Choose transparent drawing references, adjust their strokes, and practice in a cozy desktop studio. Includes AI illustrations, side and top studies, an independent grid, gentle audio, and local image uploads.</p></description>
+  <launchable type="desktop-id">com.softstrange.Drawing.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+  <releases><release version="0.3.0" date="2026-10-12"/></releases>
+</component>

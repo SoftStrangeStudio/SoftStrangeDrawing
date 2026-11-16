@@ -1,0 +1,12 @@
+{
+  "id": "60",
+  "name": "Wildflower",
+  "authoring": "original procedural stylized mesh",
+  "script": "tools/blender/build_reference_pairs.py",
+  "views": [
+    "side",
+    "top"
+  ],
+  "sourceModel": "ReferenceModels/60-model",
+  "scientificAccuracy": "stylized drawing study; not an anatomical reference"
+}

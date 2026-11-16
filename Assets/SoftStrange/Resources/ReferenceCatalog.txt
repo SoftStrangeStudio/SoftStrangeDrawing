@@ -1,0 +1,60 @@
+01-study|Shark Study 1
+02-study|Shark Study 2
+03-study|Shark Study 3
+04-study|Shark Study 4
+05-study|Shark Study 5
+06-study|Shark Study 6
+07-study|Shark Study 7
+08-study|Shark Study 8
+09-study|Shark Study 9
+10-study|Shark Study 10
+11-study|Shark Study 11
+12-study|Shark Study 12
+13-study|Shark Study 13
+14-study|Shark Study 14
+15-study|Shark Study 15
+16-study|Shark Study 16
+17-study|Shark Study 17
+18-study|Shark Study 18
+19-study|Horn Shark Resting Profile
+20-study|Sevengill Shark Side View
+21-study|Sixgill Shark Side View
+22-study|Copper Shark In A Smooth Turn
+23-study|Sandbar Shark Full Body Tall Dorsal Fin
+24-study|Dusky Shark Gentle Side View
+25-study|Spinner Shark Curved Pose
+26-study|Oceanic Whitetip Shark Viewed From Above
+27-study|Reef Shark Flowing Profile
+28-study|Great White Simple Beginner Profile
+29-study|Hammerhead Simple Overhead Contour
+30-study|Whale Shark Simple Full-Body Contour
+31-study|Tiger Shark Minimalist Profile
+32-study|Thresher Shark Profile
+33-study|Blue Shark Flowing S-Shaped Pose
+34-study|Friendly Baby Shark Original Rounded Design
+35-study|Shark Turning Toward Viewer Three-Quarter Study
+36-study|Shark Swimming Away Complete Tail Perspective
+37-study|Two Small Sharks Circling
+38-study|Shark Vertical Diving Gesture
+39-study|Hammerhead Three-Quarter Turning Pose
+40-study|Leopard Shark Graceful Contour With Outlined Spots
+41-study|Bamboo Shark Curled Tail
+42-study|Epaulette Shark Overhead Study
+43-study|Wobbegong Simple Outline-Only Study
+44-study|Angel Shark Viewed From Above
+45-study|Sawshark Full-Length Elegant Outline
+46-study|Mako Shark Dynamic Upward-Swimming Contour
+47-study|Port Jackson Shark Outlined Body Pattern
+48-study|Nurse Shark Front Three-Quarter Pose
+49-study|Blacktip Shark Breaking The Water With No Water Fill
+50-study|Two Sharks Crossing With Separate Clean Silhouettes
+51-study|Sea Turtle
+52-study|Manta Ray
+53-study|Octopus
+54-study|Jellyfish
+55-study|Seahorse
+56-study|Nautilus Shell
+57-study|Coral Branch
+58-study|Starfish And Shell Arrangement
+59-study|Fern Frond
+60-study|Wildflower Stem
