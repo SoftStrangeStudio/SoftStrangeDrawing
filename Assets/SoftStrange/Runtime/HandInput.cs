@@ -50,7 +50,7 @@ namespace SoftStrange {
     Pinching=armed&&(previous?PinchDistance<exit:nearTime>=.025f);
     PinchStrength=Mathf.SmoothStep(0,1,Mathf.InverseLerp(.085f,enter,PinchDistance));
     // Aim exclusively from wrist orientation; finger curl only controls the pinch.
-    SmoothRay(Rotation*Vector3.forward,UiTargeted?.11f:.075f);ShowPointer(Ray.GetPoint(.85f));
+    SmoothRay(Rotation*Vector3.forward,UiTargeted ? .11f : .075f);ShowPointer(Ray.GetPoint(.85f));
    }else {Pinching=false;armed=false;smoothReady=false;nearTime=0;PinchStrength=0;pointer.enabled=false;reticle.gameObject.SetActive(false);UiTargeted=false;}
    Pressed=Pinching&&!previous;Released=!Pinching&&previous;GrabPressed=Pressed;GrabHeld=Pinching;if(Pressed)PinchStartedAt=Time.unscaledTime;
    for(int i=0;i<26;i++){int p=Parent[i];bones[i].enabled=skeleton&&Tracked&&Valid[i]&&p>=0&&Valid[p];if(bones[i].enabled){bones[i].SetPosition(0,Joints[p].position);bones[i].SetPosition(1,Joints[i].position);}}
@@ -63,7 +63,7 @@ namespace SoftStrange {
    Tracked=true;Point=origin.TransformPoint(position);Rotation=origin.rotation*rotation;Pinching=controllerArmed&&trigger>(before?.35f:.65f);GrabHeld=controllerArmed&&grip>(grabBefore?.35f:.65f);Pressed=Pinching&&!before;Released=!Pinching&&before;GrabPressed=GrabHeld&&!grabBefore;PinchStrength=Mathf.Max(.25f,trigger);if(Pressed)PinchStartedAt=Time.unscaledTime;SmoothRay(Rotation*Vector3.forward);ShowPointer(Ray.GetPoint(.85f));
   }
   void SmoothRay(Vector3 direction,float directionSmoothing=.045f){if(direction.sqrMagnitude<.000001f)direction=Rotation*Vector3.forward;direction.Normalize();float dt=Mathf.Min(Time.unscaledDeltaTime,.1f);if(!smoothReady){smoothOrigin=Point;smoothDirection=direction;smoothReady=true;}else{smoothOrigin=Vector3.Lerp(smoothOrigin,Point,1-Mathf.Exp(-dt/.025f));smoothDirection=Vector3.Slerp(smoothDirection,direction,1-Mathf.Exp(-dt/directionSmoothing));}RawRay=new Ray(Point,direction);Ray=new Ray(smoothOrigin,smoothDirection.normalized);}
-  public void ShowPointer(Vector3 end){pointer.enabled=Tracked;rayMaterial.color=new Color(.76f,.91f,.84f,UiTargeted?.85f:.35f);pointer.SetPosition(0,Ray.origin);pointer.SetPosition(1,end);reticle.gameObject.SetActive(Tracked);if(Tracked)reticle.position=end;}
+  public void ShowPointer(Vector3 end){pointer.enabled=Tracked;rayMaterial.color=new Color(.76f,.91f,.84f,UiTargeted ? .85f : .35f);pointer.SetPosition(0,Ray.origin);pointer.SetPosition(1,end);reticle.gameObject.SetActive(Tracked);if(Tracked)reticle.position=end;}
   public void LoseTracking(){Released=Pinching;Pinching=Pressed=GrabPressed=GrabHeld=Tracked=armed=smoothReady=controllerArmed=false;PinchStrength=0;nearTime=0;PinchStartedAt=-1f;UiTargeted=false;reticle.gameObject.SetActive(false);foreach(var t in dots)t.gameObject.SetActive(false);foreach(var b in bones)b.enabled=false;pointer.enabled=false;}
   public void Dispose(){Object.Destroy(rayMaterial);if(pointer!=null)Object.Destroy(pointer.gameObject);if(reticle!=null)Object.Destroy(reticle.gameObject);foreach(var t in dots)if(t!=null)Object.Destroy(t.gameObject);foreach(var b in bones)if(b!=null)Object.Destroy(b.gameObject);}
  }
