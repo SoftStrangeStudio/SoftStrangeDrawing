@@ -33,7 +33,20 @@ namespace SoftStrange {
   bool paused,focused=true,xrFocused=true,menuHeld;
   XRDisplaySubsystem display;
   readonly List<XRDisplaySubsystem> displays=new List<XRDisplaySubsystem>();
-  readonly Collider[] nearControls=new Collider[16];
+  readonly Collider[] nearControls=new Collider[32];
+  readonly RaycastHit[] magneticHits=new RaycastHit[32];
+  sealed class UiSelection {
+   public PinchButton hover;
+   public float acquiredAt,lastSeenAt;
+   public bool consumed;
+  }
+  readonly UiSelection leftUi=new UiSelection(),rightUi=new UiSelection();
+  const float HoverRetention=.18f,PressHistory=.10f,TargetStability=.06f;
+  const float MagnetAngle=1.5f,NearRadius=.018f;
+  void ClearUi(UiSelection state){
+   if(state.hover!=null)state.hover.ClearTarget();
+   state.hover=null;state.acquiredAt=state.lastSeenAt=0;state.consumed=false;
+  }
   public bool HomeVisible {get;private set;}=true;
   public float Opacity {get;private set;}=.85f;
   public float Threshold {get;private set;}=.18f;
@@ -117,15 +130,93 @@ namespace SoftStrange {
    if(hands!=null&&hands.running&&(left?hands.leftHand.isTracked:hands.rightHand.isTracked))input.Read(left?hands.leftHand:hands.rightHand,Origin,ShowSkeleton,reserved);
    else input.ReadController(controller,Origin);
   }
-  void Interact(HandInput hand){
-   if(!hand.Tracked||!InputAllowed)return;PinchButton target=null;Vector3 end=hand.Ray.GetPoint(.85f);bool blocked=false;
-   int count=Physics.OverlapSphereNonAlloc(hand.Point,.018f,nearControls,1<<8);for(int i=0;i<count;i++){var button=nearControls[i].GetComponent<PinchButton>();if(button!=null&&button.isActiveAndEnabled){target=button;end=button.transform.position;break;}}
-   if(target==null&&Physics.Raycast(hand.Ray,out var hit,2,1<<8)){blocked=true;end=hit.point;var slider=hit.collider.GetComponent<PinchSlider>();if(slider!=null){slider.Drag(hand);hand.ShowPointer(end);return;}target=hit.collider.GetComponent<PinchButton>();}
-   hand.ShowPointer(end);
-   if(target!=null){target.Hover(hand.PinchStrength);if(hand.Pressed)target.Press();return;}
-   if(!blocked&&hand.GrabPressed&&CanManipulate)ActiveSheet.TryGrab(hand);
+  bool Eligible(PinchButton button)=>button!=null&&button.CanAcquire;
+  // Exact hits and occluding panels always take precedence over magnetic assistance.
+  PinchButton FindTarget(HandInput hand,out Vector3 end,out bool blocked,out PinchSlider slider){
+   end=hand.Ray.GetPoint(.85f);blocked=false;slider=null;
+   int nearby=Physics.OverlapSphereNonAlloc(hand.Point,NearRadius,nearControls,1<<8);
+   PinchButton near=null;float nearDistance=float.MaxValue;
+   for(int i=0;i<nearby;i++){
+    var button=nearControls[i].GetComponent<PinchButton>();
+    if(!Eligible(button))continue;
+    float d=nearControls[i].ClosestPoint(hand.Point).sqrMagnitude;
+    if(d<nearDistance){nearDistance=d;near=button;}
+   }
+   if(near!=null){end=near.transform.position;return near;}
+   if(Physics.Raycast(hand.Ray,out var exact,2f,1<<8)){
+    blocked=true;end=exact.point;
+    slider=exact.collider.GetComponent<PinchSlider>();
+    if(slider!=null)return null;
+    var direct=exact.collider.GetComponent<PinchButton>();
+    return Eligible(direct)?direct:null;
+   }
+   // Angular assistance grows with distance; do not activate through other UI surfaces.
+   float radius=Mathf.Tan(MagnetAngle*Mathf.Deg2Rad)*.85f;
+   int count=Physics.SphereCastNonAlloc(hand.Ray,radius,magneticHits,2f,1<<8);
+   PinchButton best=null;float score=float.MaxValue;
+   for(int i=0;i<count;i++){
+    var hit=magneticHits[i];
+    var button=hit.collider.GetComponent<PinchButton>();
+    if(!Eligible(button))continue;
+    Vector3 aim=hit.collider.ClosestPoint(hand.Ray.GetPoint(Mathf.Clamp(hit.distance,0,2)));
+    Vector3 delta=aim-hand.Ray.origin;
+    if(delta.sqrMagnitude<.0001f)continue;
+    float angle=Vector3.Angle(hand.Ray.direction,delta);
+    if(angle>MagnetAngle)continue;
+    // A panel or another control in front must prevent acquisition.
+    if(Physics.Raycast(hand.Ray.origin,delta.normalized,out var visibility,delta.magnitude+.005f,1<<8)
+       &&visibility.collider!=hit.collider)continue;
+    float rank=angle+hit.distance*.001f;
+    if(rank<score){score=rank;best=button;end=aim;}
+   }
+   return best;
   }
-  public void CancelInteractions(){Sheet?.Cancel();guides?.Sheet.Cancel();}
+  void Interact(HandInput hand){
+   var state=hand==Left?leftUi:rightUi;
+   if(!hand.Tracked||!InputAllowed){ClearUi(state);hand.UiTargeted=false;return;}
+   var candidate=FindTarget(hand,out var end,out var blocked,out var slider);
+   if(slider!=null){
+    if(state.hover!=null)state.hover.ClearTarget();
+    state.hover=null;hand.UiTargeted=false;slider.Drag(hand);hand.ShowPointer(end);
+    return;
+   }
+   float now=Time.unscaledTime;
+   if(candidate!=null){
+    if(candidate!=state.hover){
+     if(state.hover!=null)state.hover.ClearTarget();
+     state.hover=candidate;state.acquiredAt=now;
+    }
+    state.lastSeenAt=now;
+   }else if(state.hover!=null){
+    // Retain a recently aimed target only when it remains active and nearby.
+    Vector3 toward=state.hover.transform.position-hand.Ray.origin;
+    bool close=toward.sqrMagnitude>.0001f&&Vector3.Angle(hand.Ray.direction,toward)<3f;
+    if(blocked||!Eligible(state.hover)||!close||now-state.lastSeenAt>HoverRetention){
+     state.hover.ClearTarget();state.hover=null;
+    }
+   }
+   var target=state.hover;
+   hand.UiTargeted=target!=null;
+   if(target!=null){
+    bool stable=now-state.acquiredAt>=TargetStability;
+    target.SetTargeted(stable,Mathf.Max(.25f,hand.PinchStrength));
+    end=target.transform.position;
+    // A target may be selected from the recent hover history when pinch movement shifts aim.
+    if(hand.Pressed&&!state.consumed&&now-state.lastSeenAt<=PressHistory&&Eligible(target)){
+     state.consumed=true;
+     target.Press();
+    }
+   }
+   hand.ShowPointer(end);
+   if(hand.Released)state.consumed=false;
+   if(target==null&&!blocked&&hand.GrabPressed&&CanManipulate)ActiveSheet.TryGrab(hand);
+  }
+  public void CancelInteractions(){
+   Sheet?.Cancel();guides?.Sheet.Cancel();
+   ClearUi(leftUi);ClearUi(rightUi);
+   if(Left!=null)Left.UiTargeted=false;
+   if(Right!=null)Right.UiTargeted=false;
+  }
   public void Execute(string name,float value=0,string text=null,bool flag=false,Vector3 vector=default){try{if(!InputAllowed)return;commands.Execute(new AppCommand{name=name,value=value,text=text,flag=flag,vector=vector,id=Guid.NewGuid().ToString("N")});if(name=="lock"||name=="draw"||name=="image.select")Audio?.Cue(name);SavePreferences();PublishState();ui?.Refresh();}catch(Exception e){Notice=lastError=e.Message;Debug.LogWarning("Command: "+e.Message);}}
   void RegisterCommands(){
    commands.Register("app.quit","Quit the local application",c=>Application.Quit());
